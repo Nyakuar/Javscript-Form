@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form action="index.html" method="post" id="apply">
+				<h1>ENTER YOUR DETAILS</h1>
+				<div class="field">
+					<label for="class">Class:</label>
+					<input type="text" id="class1" name="name" placeholder="Enter your class" />
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="subject">Subject:</label>
+					<input type="text" id="subject1" name="subject" placeholder="Enter subject you have interest in" />
+					<small></small>
+				</div>
+				<div class="field">
+					<button type="submit" class="full">Submit</button>
+				</div>
+			</form>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
